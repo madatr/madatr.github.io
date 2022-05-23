@@ -1,0 +1,5 @@
+App URL: https://madatr.github.io/jumlahtechnology/admin_app/admin_app.ipa
+
+Display URL: https://madatr.github.io/jumlahtechnology/admin_app/icon57x57.png
+
+Full Size Image URL: https://madatr.github.io/jumlahtechnology/admin_app/icon512x512.png

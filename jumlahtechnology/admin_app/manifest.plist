@@ -17,13 +17,13 @@
 					<key>kind</key>
 					<string>display-image</string>
 					<key>url</key>
-					<string>https://madatr.github.io/jumlahtechnology/admin_app/images/icon57x57.png</string>
+					<string>https://madatr.github.io/jumlahtechnology/admin_app/icon57x57.png</string>
 				</dict>
 				<dict>
 					<key>kind</key>
 					<string>full-size-image</string>
 					<key>url</key>
-					<string>https://madatr.github.io/jumlahtechnology/admin_app/images/icon512x512.png</string>
+					<string>https://madatr.github.io/jumlahtechnology/admin_app/icon512x512.png</string>
 				</dict>
 			</array>
 			<key>metadata</key>
@@ -31,7 +31,7 @@
 				<key>bundle-identifier</key>
 				<string>com.technoarabia.JumlahTechnology.adminApp</string>
 				<key>bundle-version</key>
-				<string>0.0.5</string>
+				<string>0.0.6</string>
 				<key>kind</key>
 				<string>software</string>
 				<key>platform-identifier</key>
