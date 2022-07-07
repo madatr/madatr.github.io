@@ -31,13 +31,13 @@
 				<key>bundle-identifier</key>
 				<string>com.madatr.hosn</string>
 				<key>bundle-version</key>
-				<string>1.9.1</string>
+				<string>1.10.1</string>
 				<key>kind</key>
 				<string>software</string>
 				<key>platform-identifier</key>
 				<string>com.apple.platform.iphoneos</string>
 				<key>title</key>
-				<string>Al hosn</string>
+				<string>Al Hosn</string>
 			</dict>
 		</dict>
 	</array>
