@@ -116,26 +116,6 @@ body {
     color: #777;
 }
 
-/* Skills section styles */
-.skills {
-    list-style: none;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
-    margin-top: 20px;
-}
-
-.skill {
-    display: inline-block;
-    background-color: #f4f4f4;
-    color: #333;
-    font-weight: bold;
-    padding: 5px 10px;
-    margin: 5px;
-    border-radius: 4px;
-}
-
 /* Footer styles */
 .footer {
     background-color: #333;
