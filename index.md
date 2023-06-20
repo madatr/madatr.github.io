@@ -3,63 +3,76 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>My Portfolio</title>
-  <style>
-    /* Add your own CSS styles here */
-  </style>
+  <title>Your Name - Portfolio</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <header>
-    <h1>Welcome to My Portfolio</h1>
-    <!-- Add a navigation menu here if needed -->
+  <header class="header">
+    <nav class="nav container">
+      <a href="#" class="nav__logo">Your Name</a>
+      <div class="nav__menu">
+        <ul class="nav__list">
+          <li class="nav__item"><a href="#projects" class="nav__link">Projects</a></li>
+          <li class="nav__item"><a href="#skills" class="nav__link">Skills</a></li>
+          <li class="nav__item"><a href="#contact" class="nav__link">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+
+    <div class="intro">
+      <div class="container">
+        <h1 class="intro__title">Hi, I'm Your Name</h1>
+        <p class="intro__subtitle">I'm a passionate developer</p>
+        <a href="#contact" class="btn">Contact Me</a>
+      </div>
+    </div>
   </header>
 
   <main>
-    <section>
-      <h2>About Me</h2>
-      <p>Write a brief introduction about yourself and your background.</p>
+    <section id="projects" class="section">
+      <div class="container">
+        <h2 class="section__title">Projects</h2>
+        <div class="projects">
+          <!-- Add your project cards here -->
+          <div class="project">
+            <img src="project1.jpg" alt="Project 1" class="project__img">
+            <h3 class="project__title">Project 1</h3>
+            <p class="project__description">Description of Project 1</p>
+          </div>
+          <div class="project">
+            <img src="project2.jpg" alt="Project 2" class="project__img">
+            <h3 class="project__title">Project 2</h3>
+            <p class="project__description">Description of Project 2</p>
+          </div>
+        </div>
+      </div>
     </section>
 
-    <section>
-      <h2>Projects</h2>
-      <!-- List your projects here with descriptions, links, and any other relevant information -->
-      <ul>
-        <li>
-          <h3>Project 1</h3>
-          <p>Description of Project 1</p>
-          <a href="#">Link to Project 1</a>
-        </li>
-        <li>
-          <h3>Project 2</h3>
-          <p>Description of Project 2</p>
-          <a href="#">Link to Project 2</a>
-        </li>
-        <!-- Add more projects as needed -->
-      </ul>
+    <section id="skills" class="section">
+      <div class="container">
+        <h2 class="section__title">Skills</h2>
+        <ul class="skills">
+          <!-- Add your skills here -->
+          <li class="skill">Skill 1</li>
+          <li class="skill">Skill 2</li>
+          <li class="skill">Skill 3</li>
+        </ul>
+      </div>
     </section>
 
-    <section>
-      <h2>Skills</h2>
-      <!-- List your skills here -->
-      <ul>
-        <li>Skill 1</li>
-        <li>Skill 2</li>
-        <li>Skill 3</li>
-        <!-- Add more skills as needed -->
-      </ul>
-    </section>
-
-    <section>
-      <h2>Contact</h2>
-      <!-- Add your contact information here -->
-      <p>Email: yourname@example.com</p>
-      <p>Phone: (123) 456-7890</p>
+    <section id="contact" class="section">
+      <div class="container">
+        <h2 class="section__title">Contact</h2>
+        <p>Email: yourname@example.com</p>
+        <p>Phone: (123) 456-7890</p>
+      </div>
     </section>
   </main>
 
-  <footer>
-    <!-- Add any additional footer content here, such as social media links or copyright information -->
-    <p>&copy; 2023 Your Name</p>
+  <footer class="footer">
+    <div class="container">
+      <p>&copy; 2023 Your Name</p>
+    </div>
   </footer>
 </body>
 </html>
