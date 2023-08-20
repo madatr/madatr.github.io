@@ -1,0 +1,6 @@
+{
+  "otpFeatures": {
+    "SandboxAPITransmodelApi": true,
+    "SandboxAPILegacyGraphQLApi": true
+  }
+}
