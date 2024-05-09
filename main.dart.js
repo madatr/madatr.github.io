@@ -47099,7 +47099,7 @@ $S:70}
 A.zk.prototype={
 ac(){return new A.TL(A.a([],t.HC),B.i)}}
 A.TL.prototype={
-I(a){var s,r,q,p=this,o=null,n=A.aBL(B.Ve),m=t.p,l=A.a([B.Vg,B.hY,A.d8(A.CP(!1,B.ma,o,B.nW,!1,o,B.e.k(160),o,B.QZ,1,new A.apQ(p),o,o,o,o,o,B.aV,o,new A.apR()),o,o),B.bS],m)
+I(a){var s,r,q,p=this,o=null,n=A.aBL(B.Vh),m=t.p,l=A.a([B.Vf,B.hY,A.d8(A.CP(!1,B.ma,o,B.nW,!1,o,B.e.k(160),o,B.QZ,1,new A.apQ(p),o,o,o,o,o,B.aV,o,new A.apR()),o,o),B.bS],m)
 if(p.d!=null){s=t.l
 s=p.e!=null?A.al(a,o,s).w.a.a*0.85:A.al(a,o,s).w.a.a*0.9
 s=A.d8(A.a5c(B.Md,new A.apS(p,a)),o,s)
@@ -47108,7 +47108,7 @@ q=r?B.Q7:A.cJ(o,o,B.m,o,o,o,o,o,o,o,o,o,o)
 l.push(A.fb(A.a([s,q,r?A.cJ(o,B.Gl,B.m,o,o,B.By,o,o,o,B.Fi,o,o,o):A.cJ(o,o,B.m,o,o,o,o,o,o,o,o,o,o)],m),B.ag,B.ul,B.T,o))}l.push(B.l8)
 l.push(p.d!=null&&p.e!=null?B.Q9:A.cJ(o,o,B.m,o,o,o,o,o,o,o,o,o,o))
 l.push(B.hY)
-l.push(p.d!=null&&p.e!=null?B.Vh:A.cJ(o,o,B.m,o,o,o,o,o,o,o,o,o,o))
+l.push(p.d!=null&&p.e!=null?B.Vg:A.cJ(o,o,B.m,o,o,o,o,o,o,o,o,o,o))
 l.push(B.l8)
 if(p.d!=null&&p.e!=null){m=A.al(a,o,t.l).w
 m=A.d8(A.a5c(B.Me,new A.apT(p,a)),o,m.a.a*0.9)}else m=A.cJ(o,o,B.m,o,o,o,o,o,o,o,o,o,o)
@@ -100256,8 +100256,8 @@ B.Vt=new A.dv("End date cannot be in the past",null,null,null,null,null,null,nul
 B.Qn=new A.hQ(B.Vt,null,null,null,null,null,null,null,null,null,null,null,null,B.c8,null,null,null,B.G,null)
 B.Vm=new A.dv("No points to delete",null,null,null,null,null,null,null,null,null)
 B.Qo=new A.hQ(B.Vm,null,null,null,null,null,null,null,null,null,null,null,null,B.c8,null,null,null,B.G,null)
-B.Vf=new A.dv("End date cannot be before start date",null,null,null,null,null,null,null,null,null)
-B.Qp=new A.hQ(B.Vf,null,null,null,null,null,null,null,null,null,null,null,null,B.c8,null,null,null,B.G,null)
+B.Ve=new A.dv("End date cannot be before start date",null,null,null,null,null,null,null,null,null)
+B.Qp=new A.hQ(B.Ve,null,null,null,null,null,null,null,null,null,null,null,null,B.c8,null,null,null,B.G,null)
 B.Vs=new A.dv("Start date cannot be in the past",null,null,null,null,null,null,null,null,null)
 B.Qq=new A.hQ(B.Vs,null,null,null,null,null,null,null,null,null,null,null,null,B.c8,null,null,null,B.G,null)
 B.Vj=new A.dv("Length of points error",null,null,null,null,null,null,null,null,null)
@@ -100607,9 +100607,9 @@ B.Ud=new A.r(!0,B.k,null,"Roboto",null,null,null,null,null,null,null,null,null,n
 B.TP=new A.r(!0,B.k,null,"Roboto",null,null,null,null,null,null,null,null,null,null,null,null,null,B.f,null,null,null,"whiteMountainView labelSmall",null,null,null,null)
 B.Vc=new A.dT(B.Ty,B.UQ,B.Uv,B.S0,B.Uo,B.Ts,B.UV,B.SB,B.T6,B.Uh,B.RS,B.Ux,B.Ul,B.Ud,B.TP)
 B.Vd=new A.dv("End DateTime",null,null,null,null,null,null,null,null,null)
-B.Ve=new A.dv("UTM Flight Plan Generator Widget",null,null,null,null,null,null,null,null,null)
-B.Vg=new A.dv("Observer Max Range Radius (metres):",null,B.dD,null,null,null,null,null,null,null)
-B.Vh=new A.dv("Flights:",null,B.dD,null,null,null,null,null,null,null)
+B.Vf=new A.dv("Observer Max Range Radius (metres):",null,B.dD,null,null,null,null,null,null,null)
+B.Vg=new A.dv("Flights:",null,B.dD,null,null,null,null,null,null,null)
+B.Vh=new A.dv("UTM Flight Plan Generator Widget v0.5",null,null,null,null,null,null,null,null,null)
 B.T2=new A.r(!0,null,null,null,null,null,25,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null)
 B.zZ=new A.dv("Done",null,B.T2,null,null,null,null,null,null,null)
 B.Vn=new A.dv("Use Click or R-Click clicks to draw path",null,B.i3,null,null,null,null,null,null,null)
