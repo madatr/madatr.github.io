@@ -1,26 +1,65 @@
-<!doctype html>
-<html xmlns="http://www.w3.org/1999/xhtml">
+<!DOCTYPE html>
+<html>
 
 <head>
-    <title>Keynote</title>
-    <meta name="viewport"
-        content="initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no,width=device-width" />
-    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+  <!--
+    If you are serving your web app in a path other than the root, change the
+    href value below to reflect the base path you are serving from.
+
+    The path provided below has to start and end with a slash "/" in order for
+    it to work correctly.
+
+    For more details:
+    * https://developer.mozilla.org/en-US/docs/Web/HTML/Element/base
+
+    This is a placeholder for base href that will be replaced by the value of
+    the `--base-href` argument provided to `flutter build`.
+  -->
+  <base href="/">
+
+  <meta charset="UTF-8">
+  <meta content="IE=Edge" http-equiv="X-UA-Compatible">
+  <meta name="description" content="A new Flutter project.">
+
+  <!-- iOS meta tags & icons -->
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black">
+  <meta name="apple-mobile-web-app-title" content="flightplan_generator">
+  <link rel="apple-touch-icon" href="icons/Icon-192.png">
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" href="favicon.png" />
+
+  <title>flightplan_generator</title>
+  <link rel="manifest" href="manifest.json">
+
+  <script>
+    // The value below is injected by flutter build, do not touch.
+    const serviceWorkerVersion = "4195122979";
+  </script>
+  <!-- This script adds the flutter initialization JS code -->
+  <script src="flutter.js" defer></script>
+  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBBhMEVwTC5ukpFoZc5kRiqNGj0ymOrHuA&libraries=drawing">
+  </script>
+
 </head>
 
-<body id="body" bgcolor="black">
-    <div id="stageArea">
-        <div id="stage" class="stage"></div>
-        <div id="hyperlinkPlane" class="stage"></div>
-    </div>
-    <div id="slideshowNavigator"></div>
-    <div id="slideNumberControl"></div>
-    <div id="slideNumberDisplay"></div>
-    <div id="helpPlacard"></div>
-    <div id="waitingIndicator">
-        <div id="waitingSpinner"></div>
-    </div>
-    <script src="assets/player/main.js"></script>
+<body>
+  <script>
+    window.addEventListener('load', function (ev) {
+      // Download main.dart.js
+      _flutter.loader.loadEntrypoint({
+        serviceWorker: {
+          serviceWorkerVersion: serviceWorkerVersion,
+        },
+        onEntrypointLoaded: function (engineInitializer) {
+          engineInitializer.initializeEngine().then(function (appRunner) {
+            appRunner.runApp();
+          });
+        }
+      });
+    });
+  </script>
 </body>
 
 </html>
