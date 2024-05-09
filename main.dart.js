@@ -47197,7 +47197,7 @@ A.apW.prototype={
 $1(a){return a.bM()},
 $S:415}
 A.MI.prototype={
-I(a){return new A.Ad(B.FX,"Flutter Demo",A.D0(null,A.aMK(B.a7,B.KS),!0),null)}}
+I(a){return new A.Ad(B.FX,"UTM Flightplan Generator",A.D0(null,A.aMK(B.a7,B.KS),!0),null)}}
 A.qi.prototype={
 ac(){return new A.MV(new A.bZ(new A.aK($.aD,t.o8),t.Q3),A.a([],t.q_),A.az(t.KP),B.i)}}
 A.MV.prototype={
@@ -100602,7 +100602,7 @@ B.Vb=new A.dT(B.Tx,B.UP,B.Uu,B.S_,B.Un,B.Tr,B.UU,B.SA,B.T5,B.Ug,B.RR,B.Uw,B.Uk,B
 B.Vc=new A.dD("End DateTime",null,null,null,null,null,null,null,null,null)
 B.Ve=new A.dD("Observer Max Range Radius (metres):",null,B.dD,null,null,null,null,null,null,null)
 B.Vf=new A.dD("Flights:",null,B.dD,null,null,null,null,null,null,null)
-B.Vg=new A.dD("UTM Flight Plan Generator Widget v0.6",null,null,null,null,null,null,null,null,null)
+B.Vg=new A.dD("UTM Flight Plan Generator Widget v0.7",null,null,null,null,null,null,null,null,null)
 B.T1=new A.r(!0,null,null,null,null,null,25,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null)
 B.zZ=new A.dD("Done",null,B.T1,null,null,null,null,null,null,null)
 B.Vl=new A.dD("Use Click or R-Click clicks to draw path",null,B.i3,null,null,null,null,null,null,null)
